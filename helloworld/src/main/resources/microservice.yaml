@@ -1,0 +1,27 @@
+APPLICATION_ID: sample
+service_description:
+  name: helloworld
+  version: 1.0.0   
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-227.htcloud.com
+      instance:
+        watch: false       
+  config:
+    client:
+      serverUri: https://cse.cn-north-227.htcloud.com
+      refreshMode: 1       
+      refresh_interval: 5000
+  monitor:                  
+    client:
+      serverUri: https://cse.cn-north-227.htcloud.com
+  rest:
+    address: 0.0.0.0:9090 
+
+
+  credentials:
+    accessKey: IOYBMDNQVQEGLBHGUFJ0  
+    secretKey: ffMXEfFBMV7bGu1oE2AOZ3zwKHAO5da7hFsyEro6
+    project: cn-north-227
+    akskCustomCipher: default
